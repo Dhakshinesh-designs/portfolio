@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #ffffff;
+    --bg-panel: #ffffff;
+    --text-main: #202124;
+    --text-muted: #4d5156;
+    --border-color: #dfe1e5;
+    --border-light: #ebebeb;
+    --bg-hover: #f1f3f4;
+    --bg-hover-dark: #e8eaed;
+    --link-color: #1a73e8;
+    --link-title: #1a0dab;
+    --icon-color: #5f6368;
+  }
+
+  .dark {
+    --bg-main: #202124;
+    --bg-panel: #303134;
+    --text-main: #e8eaed;
+    --text-muted: #9aa0a6;
+    --border-color: #5f6368;
+    --border-light: #3c4043;
+    --bg-hover: #3c4043;
+    --bg-hover-dark: #4d5156;
+    --link-color: #8ab4f8;
+    --link-title: #8ab4f8;
+    --icon-color: #9aa0a6;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  *, ::before, ::after {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+/* Removed blob and neon animations */
+
+/* Hide scrollbar for tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

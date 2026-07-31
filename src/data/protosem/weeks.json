@@ -1,0 +1,113 @@
+[
+  {
+    "week": 0,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 1,
+    "date": "",
+    "activities": [
+      {
+        "heading": "Shutter Box 5S & Component Digitization",
+        "description": "During my ProtoSem program, I collaborated with a five-member team to optimize an unorganized hardware storage domain by applying 5S Lean Methodology to a high-density \"shutter box\" system containing mixed resistors, capacitors, sensors, and electronic modules. We systematically sorted and classified thousands of loose components into distinct functional families, organized the storage unit into dedicated physical sections, and applied high-visibility labeling to ensure immediate identification and swift retrieval. To standardize and sustain this workflow, we digitized our physical setup by building a centralized Excel inventory database that logs precise component counts, values, and location coordinates. Through this hands-on initiative, I learned how integrating physical workspace organization with digital tracking directly eliminates prototyping downtime, prevents duplicate purchasing, and fosters a disciplined, safety-oriented engineering mindset essential for efficient technical projects.",
+        "photos": []
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 3,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 4,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 5,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 6,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 7,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 8,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 9,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 10,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 11,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 12,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 13,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 14,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 15,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 16,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 17,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 18,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 19,
+    "date": "",
+    "activities": []
+  },
+  {
+    "week": 20,
+    "date": "",
+    "activities": []
+  }
+]
