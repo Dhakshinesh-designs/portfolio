@@ -107,7 +107,7 @@ export default function IntroSequence({ onComplete }: { onComplete: () => void }
   }, [scene, cursorControls]);
 
   return (
-    <div className="fixed inset-0 z-50 bg-[#202124] overflow-hidden">
+    <div className="fixed inset-0 z-50 bg-transparent overflow-hidden">
       <AnimatePresence mode="wait">
         
         {/* SCENE 2: GOOGLE SEARCH */}
@@ -117,12 +117,9 @@ export default function IntroSequence({ onComplete }: { onComplete: () => void }
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 0.4 } }}
-            className="absolute inset-0"
-            style={{ 
-              background: 'radial-gradient(circle at 15% 45%, rgba(0, 150, 255, 0.7) 0%, transparent 45%), radial-gradient(circle at 85% 35%, rgba(255, 0, 128, 0.7) 0%, transparent 45%), radial-gradient(circle at 50% 95%, rgba(255, 0, 50, 0.6) 0%, transparent 55%), radial-gradient(circle at 50% 50%, rgba(110, 20, 200, 0.4) 0%, transparent 65%), #080614' 
-            }}
+            className="absolute inset-0 bg-transparent"
           >
-            <div className="w-full h-full flex flex-col items-center pt-[15vh] relative">
+            <div className="w-full h-full flex flex-col items-center pt-[15vh] relative z-10">
               
               {/* Header */}
               <div className="absolute top-0 left-0 right-0 p-4 flex justify-between items-center text-[13px] text-white/80 font-[var(--font-inter)]">

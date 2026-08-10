@@ -43,11 +43,11 @@ export default function PortfolioHeader({ children }: { children: React.ReactNod
 
   return (
     <div 
-      className="min-h-screen flex flex-col bg-[var(--bg-main)] text-[var(--text-main)] font-[var(--font-inter)]"
+      className="min-h-screen flex flex-col bg-[#0a0a0f]/60 backdrop-blur-3xl text-white font-[var(--font-inter)]"
     >
       
       {/* Header Parody */}
-      <header className="sticky top-0 z-40 bg-[var(--bg-main)] border-b border-[var(--border-light)] pt-6 pb-0">
+      <header className="sticky top-0 z-40 bg-transparent border-b border-[var(--border-light)] pt-6 pb-0">
         <div className="px-4 md:px-8 max-w-7xl">
           <div className="flex flex-col md:flex-row md:items-center gap-6 mb-2">
             

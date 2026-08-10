@@ -19,7 +19,7 @@ export default function IntroManager({ children }: { children: React.ReactNode }
   }, []);
 
   // Prevent hydration mismatch by not rendering until state is resolved
-  if (showIntro === null) return <div className="min-h-screen bg-[var(--color-bg-dark)]" />;
+  if (showIntro === null) return <div className="min-h-screen bg-transparent" />;
 
   return (
     <LayoutGroup>

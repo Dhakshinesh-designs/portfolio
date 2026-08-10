@@ -1,24 +1,51 @@
 [
   {
     "week": 0,
-    "date": "",
-    "activities": []
+    "date": "July 20 - July 24, 2026",
+    "activities": [
+      {
+        "heading": "Orientation",
+        "description": "Orientation Week introduced me to the Protosem program and showed me the importance of developing both technical and professional skills. Through problem-solving activities, personality assessments, and LinkedIn branding sessions, I gained a better understanding of myself and the learning journey ahead.\n\nKey Learnings:\n\nImproved logical thinking, teamwork, and problem-solving skills.\nUnderstood the structure and expectations of the 20-week Protosem program.\nGained insights into my personality, strengths, and decision-making style.\nExplored self-expression by relating my personality to an anime character.\nLearned the basics of creating a professional LinkedIn presence.",
+        "photos": []
+      }
+    ]
   },
   {
     "week": 1,
-    "date": "",
+    "date": "July 27 - July 31, 2026",
     "activities": [
       {
         "heading": "Shutter Box 5S & Component Digitization",
         "description": "During my ProtoSem program, I collaborated with a five-member team to optimize an unorganized hardware storage domain by applying 5S Lean Methodology to a high-density \"shutter box\" system containing mixed resistors, capacitors, sensors, and electronic modules. We systematically sorted and classified thousands of loose components into distinct functional families, organized the storage unit into dedicated physical sections, and applied high-visibility labeling to ensure immediate identification and swift retrieval. To standardize and sustain this workflow, we digitized our physical setup by building a centralized Excel inventory database that logs precise component counts, values, and location coordinates. Through this hands-on initiative, I learned how integrating physical workspace organization with digital tracking directly eliminates prototyping downtime, prevents duplicate purchasing, and fosters a disciplined, safety-oriented engineering mindset essential for efficient technical projects.",
+        "photos": []
+      },
+      {
+        "heading": "Personal Portfolio website",
+        "description": "I created my personal portfolio website as a way to showcase my skills, projects, interests, and journey in the field of technology. I designed and developed the portfolio using Antigravity, focusing on creating a clean, modern, and user-friendly experience. After completing the website, I deployed and hosted it on Vercel, making it accessible online. This project gave me an opportunity to explore modern web development, improve my design and development skills, and present my work and personal profile in a professional way.",
         "photos": []
       }
     ]
   },
   {
     "week": 2,
-    "date": "",
-    "activities": []
+    "date": "Aug 3 - Aug 7, 2026",
+    "activities": [
+      {
+        "heading": "Think like a Coder",
+        "description": "As part of my learning journey, I worked on flowcharts, algorithms, and problem-solving techniques to understand how programmers approach real-world problems. I learned how to break complex problems into smaller, manageable steps and represent solutions logically using flowcharts before converting them into code. Working with algorithms helped me understand the importance of planning, sequencing, decision-making, and finding efficient solutions.\n\nThis experience helped me develop a computational thinking mindset and taught me to approach problems more systematically. I gained a better understanding of logical reasoning, problem decomposition, step-by-step thinking, debugging, and algorithmic problem-solving. Most importantly, I learned that good programming is not just about writing code—it starts with understanding the problem and thinking about the best way to solve it.",
+        "photos": []
+      },
+      {
+        "heading": "Game Development with Scratch",
+        "description": "As part of my learning journey, I created an interactive game using Scratch, applying the programming concepts and coding knowledge I had learned. I used loops, conditions, variables, events, and logical thinking to control the characters, game actions, scoring, and overall gameplay. Building the game helped me understand how different blocks of code work together to create an interactive experience.\n\nThrough this project, I gained practical experience in programming logic, loops, problem-solving, debugging, creativity, and interactive game design. I also learned how important it is to test a program repeatedly, identify errors, and improve the logic until the game works as expected. This project made coding more engaging and helped me see how programming concepts can be transformed into something fun and interactive.",
+        "photos": []
+      },
+      {
+        "heading": "Blood Donation App – MIT App Inventor",
+        "description": "As part of my project-based learning, I developed a Blood Donation App using MIT App Inventor to understand how mobile applications can be designed to solve real-world problems. The app was created with the idea of making blood donation information more accessible and helping users connect with the right resources. I worked with the app’s interface, buttons, screens, inputs, and block-based programming to create an interactive and user-friendly application.\n\nThrough this project, I gained practical knowledge of mobile app development, user interface design, event-driven programming, and logical problem-solving. I also learned how to connect different components of an application and make them respond to user actions. Most importantly, this project helped me understand how technology can be used to create solutions that have a positive social impact, while improving my creativity, teamwork, and confidence in building applications.",
+        "photos": []
+      }
+    ]
   },
   {
     "week": 3,
