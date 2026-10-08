@@ -5,8 +5,10 @@ import WeekEditor from '@/components/WeekEditor';
 
 export default async function WeekPage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  // Slug format: week-0, week-1, etc.
-  const weekNumberMatch = resolvedParams.slug.match(/week-(\d+)/);
+  const slug = resolvedParams?.slug || '';
+  
+  // Support both "week-0", "week-12", "0", "12"
+  const weekNumberMatch = slug.match(/(?:week-)?(\d+)/i);
   
   if (!weekNumberMatch) {
     notFound();

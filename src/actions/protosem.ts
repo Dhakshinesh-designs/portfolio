@@ -17,8 +17,13 @@ export type WeekData = {
 };
 
 export async function getWeeksData(): Promise<WeekData[]> {
-  const filePath = path.join(process.cwd(), 'src', 'data', 'protosem', 'weeks.json');
   try {
+    let filePath = path.join(process.cwd(), 'src', 'data', 'protosem', 'weeks.json');
+    try {
+      await fs.access(filePath);
+    } catch {
+      filePath = path.resolve(process.cwd(), 'src/data/protosem/weeks.json');
+    }
     const fileContents = await fs.readFile(filePath, 'utf8');
     return JSON.parse(fileContents);
   } catch (error) {
@@ -29,7 +34,19 @@ export async function getWeeksData(): Promise<WeekData[]> {
 
 export async function getWeekData(week: number): Promise<WeekData | null> {
   const weeks = await getWeeksData();
-  return weeks.find(w => w.week === week) || null;
+  const found = weeks.find(w => w.week === week);
+  if (found) return found;
+  
+  // Return default empty structure for valid week numbers (0 to 20)
+  if (week >= 0 && week <= 20) {
+    return {
+      week,
+      date: '',
+      activities: []
+    };
+  }
+  
+  return null;
 }
 
 export async function updateWeekData(updatedWeek: WeekData) {

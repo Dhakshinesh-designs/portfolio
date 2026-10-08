@@ -2,6 +2,7 @@
 
 import SearchResult from '@/components/SearchResult';
 import ProtosemRoadmap from '@/components/ProtosemRoadmap';
+import IotTasksRoadmap from '@/components/IotTasksRoadmap';
 
 export default function ProtosemPage() {
   return (
@@ -35,6 +36,15 @@ export default function ProtosemPage() {
         heading="ProtoSem Timeline & Weekly Updates"
         preview="Track my weekly progress, activities, and learnings from Week 0 to Week 20."
         snippet={<ProtosemRoadmap />}
+      />
+
+      {/* Result 3 */}
+      <SearchResult 
+        title="IoT Tasks"
+        url="https://dhakshinesh.portfolio > protosem > iot"
+        heading="IoT Module Tasks & Learnings"
+        preview="Explore the 5 tasks and my learnings from the IoT module."
+        snippet={<IotTasksRoadmap />}
       />
 
     </div>
